@@ -1,0 +1,91 @@
+html {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.img {
+  margin: 0;
+  width: 100%;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+header {
+  background-color: #ddd;
+}
+
+.nearest-playgrounds {
+  background-color: #efefef;
+}
+
+.icon {
+  position: absolute;
+}
+
+.icon .img {
+  top: 5px;
+  left: 5px;
+}
+
+ul {
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.id {
+  width: 6em;
+}
+
+.type {
+  width: 6em;
+}
+
+.age {
+  width: 6em;
+}
+
+.swings {
+  width: 6em;
+}
+
+.slides {
+  width: 6em;
+}
+
+.seesaws {
+  width: 6em;
+}
+
+.sandboxes {
+  width: 6em;
+}
+
+.playhouses {
+  width: 6em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .distance {
+    display: inline-block;
+  }
+
+  .km {
+    padding-left: 6rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .distance {
+    display: block;
+  }
+
+  .km {
+    padding-left: 0;
+  }
+
+}
